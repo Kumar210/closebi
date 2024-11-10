@@ -32,7 +32,7 @@ async def create_master(
 
 
 @master_router.get("/{id}",status_code=HTTPStatus.CREATED)
-async def getUserbyID(
+async def get_master_id(
     id:str,
     session:AsyncSession=Depends(get_session)):
     print(id)

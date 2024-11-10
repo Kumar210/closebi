@@ -1,7 +1,6 @@
 from sqlmodel.ext.asyncio.session import AsyncSession
 from fastapi import HTTPException
 from src.db.models import MasterData
-from sqlalchemy.orm.exc import NoResultFound  
 from .schema import masterCreateModel
 from sqlmodel import select
 
