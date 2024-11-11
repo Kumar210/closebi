@@ -6,6 +6,7 @@ from typing import Optional
 from sqlalchemy.dialects.postgresql import JSON as pgJSON
 from sqlalchemy import String
 
+
 class User(SQLModel, table=True):
         __tablename__ = 'users'  
         
@@ -44,6 +45,20 @@ class MasterData(SQLModel, table=True):
 
     def __repr__(self) -> str:
         return f"MasterData => {self.brand_name} at {self.created_at}"
+    
+    
+class Permission(SQLModel, table=True):
+    __tablename__ = "permission"  # Name of the table in the database
+
+    id: UUID = Field(
+        sa_column=Column(pg.UUID, primary_key=True, unique=True, default=uuid4)
+    )
+    name:str
+    created_at: datetime = Field(default_factory=lambda: datetime.now())
+    updated_at: datetime = Field(default_factory=lambda: datetime.now())
+
+    def __repr__(self) -> str:
+        return f"Permission => {self.brand_name} at {self.created_at}"
 
 
 class Google_Analytics(SQLModel, table=True):
