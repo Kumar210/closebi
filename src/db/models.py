@@ -4,20 +4,26 @@ import sqlalchemy.dialects.postgresql as pg
 from datetime import datetime,timezone
 from typing import Optional
 from sqlalchemy.dialects.postgresql import JSON as pgJSON
+from sqlalchemy import String
 
 
 class User(SQLModel, table=True):
-    __tablename__ = 'users'  # Use __tablename__ instead of __name__
-    
-    id: UUID = Field(
-        sa_column=Column(pg.UUID, primary_key=True, unique=True, default=uuid4)
-    )
-    name: str
-    created_at: datetime = Field(default_factory=lambda: datetime.now())
-    updated_at: datetime = Field(default_factory=lambda: datetime.now())
+        __tablename__ = 'users'  
+        
+        id: UUID = Field(
+            sa_column=Column(pg.UUID(as_uuid=True), primary_key=True, unique=True, default=uuid4)
+        )
+        name: str
+        email: str = Field(sa_column=Column(String, unique=True, index=True))  # Fixed email definition
+        password: str
+        isSuperAdmin: bool = Field(default=False)
+        isClientAdmin: bool = Field(default=False)
+        isClientUser: bool = Field(default=False)
+        created_at: datetime = Field(default_factory=lambda: datetime.now())
+        updated_at: datetime = Field(default_factory=lambda: datetime.now())
 
-    def __repr__(self) -> str:
-        return f"User => {self.name} at {self.created_at}"
+        def __repr__(self) -> str:
+            return f"User => {self.name} at {self.created_at}"
 
 
 # from sqlmodel import SQLModel, Field, Column

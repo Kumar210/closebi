@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from contextlib import asynccontextmanager
 from src.db.main import init_db
-# from src.users.route import user_router
+from src.users.route import user_router
 from src.master_data.router import master_router
 from src.google_analatics.router import analytics_router
 from src.gcb.router import gcb_router
@@ -29,7 +29,7 @@ app =FastAPI(
     lifespan=lifespan
 )
 
-# app.include_router(user_router,tags=["users"])
+app.include_router(user_router,tags=["users"])
 app.include_router(master_router, tags=["Master Data"])
 app.include_router(analytics_router, tags=["Google Analytics"])
 app.include_router(gcb_router, tags=["GCB"])

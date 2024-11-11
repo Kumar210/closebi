@@ -7,6 +7,14 @@ class userResponseModel(User):
 
 
 class userCreateModel(BaseModel):
-    name:str 
-    
+    name:str
+    email:str
+    password:str
+    isSuperAdmin:bool
+    isClientAdmin :bool
+    isClientUser:bool
+
+class login(BaseModel):
+    email:str
+    password:str
 

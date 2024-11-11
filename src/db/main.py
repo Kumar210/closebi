@@ -4,9 +4,6 @@ from sqlmodel import text , SQLModel
 from sqlalchemy.orm import sessionmaker
 from src.config import settings
 
-
-print(settings.POSTGRES_URL, "fcvghbjklk")
-
 async_engine = create_async_engine(
     url=settings.POSTGRES_URL,
     echo=True  
@@ -27,5 +24,3 @@ async def get_session() -> AsyncSession:
 
     async with async_session() as session:
         yield session
-    
- 
