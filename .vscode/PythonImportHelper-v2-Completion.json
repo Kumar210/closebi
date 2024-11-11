@@ -80,7 +80,15 @@
         "documentation": {}
     },
     {
-        "label": "List",
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -89,30 +97,6 @@
     },
     {
         "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -144,6 +128,14 @@
         "documentation": {}
     },
     {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
@@ -161,14 +153,6 @@
     },
     {
         "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -216,6 +200,38 @@
         "documentation": {}
     },
     {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
@@ -253,6 +269,14 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
         "documentation": {}
     },
     {
@@ -395,14 +419,6 @@
     },
     {
         "label": "Column",
-        "importPath": "sqlmodel",
-        "description": "sqlmodel",
-        "isExtraImport": true,
-        "detail": "sqlmodel",
-        "documentation": {}
-    },
-    {
-        "label": "select",
         "importPath": "sqlmodel",
         "description": "sqlmodel",
         "isExtraImport": true,
@@ -819,6 +835,94 @@
         "documentation": {}
     },
     {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "AsyncSession",
         "importPath": "sqlmodel.ext.asyncio.session",
         "description": "sqlmodel.ext.asyncio.session",
@@ -1285,6 +1389,22 @@
     },
     {
         "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -1365,6 +1485,39 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
         "label": "UUID",
         "importPath": "uuid",
         "description": "uuid",
@@ -1378,6 +1531,72 @@
         "description": "uuid",
         "isExtraImport": true,
         "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "admin_required",
+        "importPath": "src.utils.jwt.verify_token",
+        "description": "src.utils.jwt.verify_token",
+        "isExtraImport": true,
+        "detail": "src.utils.jwt.verify_token",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy.future",
+        "description": "sqlalchemy.future",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.future",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "bcrypt",
+        "description": "bcrypt",
+        "detail": "bcrypt",
+        "documentation": {}
+    },
+    {
+        "label": "create_jwt_token",
+        "importPath": "src.utils.jwt.jwt",
+        "description": "src.utils.jwt.jwt",
+        "isExtraImport": true,
+        "detail": "src.utils.jwt.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "importPath": "src.utils.bcrypt",
+        "description": "src.utils.bcrypt",
+        "isExtraImport": true,
+        "detail": "src.utils.bcrypt",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jwt",
+        "description": "jwt",
+        "detail": "jwt",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
         "documentation": {}
     },
     {
@@ -1438,6 +1657,24 @@
         "description": "migration.versions.25aea62c09c7_init",
         "peekOfCode": "def downgrade() -> None:\n    # Avoid dropping non-existing constraints\n    conn = op.get_bind()\n    result = conn.execute(text(\"SELECT conname FROM pg_constraint WHERE conname = 'uq_users_id'\"))\n    if result.fetchone():\n        op.drop_constraint('uq_users_id', 'users', type_='unique')\n    # Drop other constraints with actual names\n    op.drop_constraint('uq_sc_log_constraint_name', 'sc_log', type_='unique')\n    op.drop_constraint('uq_master_data_constraint_name', 'master_data', type_='unique')\n    op.drop_constraint('uq_invoice_log_constraint_name', 'invoice_log', type_='unique')",
         "detail": "migration.versions.25aea62c09c7_init",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migration.versions.5c6d92a06ff5_added_user_roles",
+        "description": "migration.versions.5c6d92a06ff5_added_user_roles",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('users', sa.Column('isSuperAdmin', sa.Boolean(), nullable=False))\n    op.add_column('users', sa.Column('isClientAdmin', sa.Boolean(), nullable=False))\n    op.add_column('users', sa.Column('isClientUser', sa.Boolean(), nullable=False))\n    op.alter_column('users', 'email',\n               existing_type=sa.VARCHAR(),\n               nullable=True)\n    op.create_index(op.f('ix_users_email'), 'users', ['email'], unique=True)\n    # ### end Alembic commands ###",
+        "detail": "migration.versions.5c6d92a06ff5_added_user_roles",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migration.versions.5c6d92a06ff5_added_user_roles",
+        "description": "migration.versions.5c6d92a06ff5_added_user_roles",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_users_email'), table_name='users')\n    op.alter_column('users', 'email',\n               existing_type=sa.VARCHAR(),\n               nullable=False)\n    op.drop_column('users', 'isClientUser')\n    op.drop_column('users', 'isClientAdmin')\n    op.drop_column('users', 'isSuperAdmin')\n    # ### end Alembic commands ###",
+        "detail": "migration.versions.5c6d92a06ff5_added_user_roles",
         "documentation": {}
     },
     {
@@ -1877,7 +2114,7 @@
         "kind": 6,
         "importPath": "src.users.schema",
         "description": "src.users.schema",
-        "peekOfCode": "class userResponseModel(User):\n    pass\nclass userCreateModel(BaseModel):\n    name:str",
+        "peekOfCode": "class userResponseModel(User):\n    pass\nclass userCreateModel(BaseModel):\n    name:str\n    email:str\n    password:str\n    isSuperAdmin:bool\n    isClientAdmin :bool\n    isClientUser:bool\nclass login(BaseModel):",
         "detail": "src.users.schema",
         "documentation": {}
     },
@@ -1886,7 +2123,16 @@
         "kind": 6,
         "importPath": "src.users.schema",
         "description": "src.users.schema",
-        "peekOfCode": "class userCreateModel(BaseModel):\n    name:str",
+        "peekOfCode": "class userCreateModel(BaseModel):\n    name:str\n    email:str\n    password:str\n    isSuperAdmin:bool\n    isClientAdmin :bool\n    isClientUser:bool\nclass login(BaseModel):\n    email:str\n    password:str",
+        "detail": "src.users.schema",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 6,
+        "importPath": "src.users.schema",
+        "description": "src.users.schema",
+        "peekOfCode": "class login(BaseModel):\n    email:str\n    password:str",
         "detail": "src.users.schema",
         "documentation": {}
     },
@@ -1895,8 +2141,53 @@
         "kind": 6,
         "importPath": "src.users.service",
         "description": "src.users.service",
-        "peekOfCode": "class userService:\n    def __init__(self, session: AsyncSession):\n        self.session = session\n    async def get_all_user(self):\n        statement = select(User).order_by(User.created_at)\n        result = await self.session.exec(statement)\n        return result.all()\n    async def create_User(self, user_data: userCreateModel):\n        new_user = User(**user_data.model_dump())\n        self.session.add(new_user)  # Just use `self.session.add()` here, no need for `await`",
+        "peekOfCode": "class userService:\n    def __init__(self, session: AsyncSession):\n        self.session = session\n    async def get_all_user(self):\n        statement = select(User).order_by(User.created_at)\n        result = await self.session.exec(statement)\n        return result.all()\n    async def create_User(self, user_data: userCreateModel):\n    # Check if user already exists\n        statement = select(User).where(User.email == user_data.email)",
         "detail": "src.users.service",
+        "documentation": {}
+    },
+    {
+        "label": "create_jwt_token",
+        "kind": 2,
+        "importPath": "src.utils.jwt.jwt",
+        "description": "src.utils.jwt.jwt",
+        "peekOfCode": "def create_jwt_token(user_id: uuid.UUID, email: str, secret_key: str, algorithm: str = settings.algorithm):\n    # Ensure UUID is converted to a string\n    user_id_str = str(user_id)\n    expiration = datetime.utcnow() + timedelta(hours=23)  # Token expires in 23 hour\n    payload = {\n        \"sub\": user_id_str,  # Using string representation of UUID\n        \"email\": email,\n        \"exp\": expiration\n    }\n    return jwt.encode(payload, secret_key, algorithm=algorithm)",
+        "detail": "src.utils.jwt.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "src.utils.jwt.jwt",
+        "description": "src.utils.jwt.jwt",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")\n# Function to generate JWT token\ndef create_jwt_token(user_id: uuid.UUID, email: str, secret_key: str, algorithm: str = settings.algorithm):\n    # Ensure UUID is converted to a string\n    user_id_str = str(user_id)\n    expiration = datetime.utcnow() + timedelta(hours=23)  # Token expires in 23 hour\n    payload = {\n        \"sub\": user_id_str,  # Using string representation of UUID\n        \"email\": email,\n        \"exp\": expiration",
+        "detail": "src.utils.jwt.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "kind": 2,
+        "importPath": "src.utils.bcrypt",
+        "description": "src.utils.bcrypt",
+        "peekOfCode": "def hash_password(password: str) -> str:\n    return pwd_context.hash(password)\n# Function to verify password\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)",
+        "detail": "src.utils.bcrypt",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "kind": 2,
+        "importPath": "src.utils.bcrypt",
+        "description": "src.utils.bcrypt",
+        "peekOfCode": "def verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)",
+        "detail": "src.utils.bcrypt",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "src.utils.bcrypt",
+        "description": "src.utils.bcrypt",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n# Function to hash passwords\ndef hash_password(password: str) -> str:\n    return pwd_context.hash(password)\n# Function to verify password\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)",
+        "detail": "src.utils.bcrypt",
         "documentation": {}
     },
     {
@@ -1913,7 +2204,7 @@
         "kind": 6,
         "importPath": "src.config",
         "description": "src.config",
-        "peekOfCode": "class Settings(BaseSettings):\n    POSTGRES_URL: str\n    model_config = SettingsConfigDict(\n        env_file=\".env\",  # Ensure .env file is correctly specified\n        extra=\"ignore\"\n    )\n# Test loading the environment variable\nsettings = Settings()\n# Output the settings model dump\nprint(settings.model_dump())",
+        "peekOfCode": "class Settings(BaseSettings):\n    POSTGRES_URL: str\n    secretKey:str\n    algorithm:str\n    model_config = SettingsConfigDict(\n        env_file=\".env\",  # Ensure .env file is correctly specified\n        extra=\"ignore\"\n    )\n# Test loading the environment variable\nsettings = Settings()",
         "detail": "src.config",
         "documentation": {}
     },
@@ -1922,7 +2213,7 @@
         "kind": 5,
         "importPath": "src.config",
         "description": "src.config",
-        "peekOfCode": "settings = Settings()\n# Output the settings model dump\nprint(settings.model_dump())",
+        "peekOfCode": "settings = Settings()\n# Output the settings model dump\nprint(settings.model_dump(),\"mijjiii\")",
         "detail": "src.config",
         "documentation": {}
     }
