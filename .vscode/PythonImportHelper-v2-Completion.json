@@ -1,0 +1,1879 @@
+[
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "sqlmodel",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "SQLModel",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlmodel",
+        "description": "sqlmodel",
+        "isExtraImport": true,
+        "detail": "sqlmodel",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "Connection",
+        "importPath": "sqlalchemy.engine",
+        "description": "sqlalchemy.engine",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.engine",
+        "documentation": {}
+    },
+    {
+        "label": "async_engine_from_config",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "isExtraImport": true,
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Call_Log",
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "isExtraImport": true,
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "GCB",
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "isExtraImport": true,
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Google_Analytics",
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "isExtraImport": true,
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Invoice_Log",
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "isExtraImport": true,
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "MasterData",
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "isExtraImport": true,
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Sc_Log",
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "isExtraImport": true,
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "isExtraImport": true,
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "isExtraImport": true,
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlmodel.ext.asyncio.session",
+        "description": "sqlmodel.ext.asyncio.session",
+        "isExtraImport": true,
+        "detail": "sqlmodel.ext.asyncio.session",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlmodel.ext.asyncio.session",
+        "description": "sqlmodel.ext.asyncio.session",
+        "isExtraImport": true,
+        "detail": "sqlmodel.ext.asyncio.session",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlmodel.ext.asyncio.session",
+        "description": "sqlmodel.ext.asyncio.session",
+        "isExtraImport": true,
+        "detail": "sqlmodel.ext.asyncio.session",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlmodel.ext.asyncio.session",
+        "description": "sqlmodel.ext.asyncio.session",
+        "isExtraImport": true,
+        "detail": "sqlmodel.ext.asyncio.session",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlmodel.ext.asyncio.session",
+        "description": "sqlmodel.ext.asyncio.session",
+        "isExtraImport": true,
+        "detail": "sqlmodel.ext.asyncio.session",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlmodel.ext.asyncio.session",
+        "description": "sqlmodel.ext.asyncio.session",
+        "isExtraImport": true,
+        "detail": "sqlmodel.ext.asyncio.session",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlmodel.ext.asyncio.session",
+        "description": "sqlmodel.ext.asyncio.session",
+        "isExtraImport": true,
+        "detail": "sqlmodel.ext.asyncio.session",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlmodel.ext.asyncio.session",
+        "description": "sqlmodel.ext.asyncio.session",
+        "isExtraImport": true,
+        "detail": "sqlmodel.ext.asyncio.session",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlmodel.ext.asyncio.session",
+        "description": "sqlmodel.ext.asyncio.session",
+        "isExtraImport": true,
+        "detail": "sqlmodel.ext.asyncio.session",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlmodel.ext.asyncio.session",
+        "description": "sqlmodel.ext.asyncio.session",
+        "isExtraImport": true,
+        "detail": "sqlmodel.ext.asyncio.session",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlmodel.ext.asyncio.session",
+        "description": "sqlmodel.ext.asyncio.session",
+        "isExtraImport": true,
+        "detail": "sqlmodel.ext.asyncio.session",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlmodel.ext.asyncio.session",
+        "description": "sqlmodel.ext.asyncio.session",
+        "isExtraImport": true,
+        "detail": "sqlmodel.ext.asyncio.session",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlmodel.ext.asyncio.session",
+        "description": "sqlmodel.ext.asyncio.session",
+        "isExtraImport": true,
+        "detail": "sqlmodel.ext.asyncio.session",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlmodel.ext.asyncio.session",
+        "description": "sqlmodel.ext.asyncio.session",
+        "isExtraImport": true,
+        "detail": "sqlmodel.ext.asyncio.session",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlmodel.ext.asyncio.session",
+        "description": "sqlmodel.ext.asyncio.session",
+        "isExtraImport": true,
+        "detail": "sqlmodel.ext.asyncio.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "importPath": "src.db.main",
+        "description": "src.db.main",
+        "isExtraImport": true,
+        "detail": "src.db.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "importPath": "src.db.main",
+        "description": "src.db.main",
+        "isExtraImport": true,
+        "detail": "src.db.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "importPath": "src.db.main",
+        "description": "src.db.main",
+        "isExtraImport": true,
+        "detail": "src.db.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "importPath": "src.db.main",
+        "description": "src.db.main",
+        "isExtraImport": true,
+        "detail": "src.db.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "importPath": "src.db.main",
+        "description": "src.db.main",
+        "isExtraImport": true,
+        "detail": "src.db.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "importPath": "src.db.main",
+        "description": "src.db.main",
+        "isExtraImport": true,
+        "detail": "src.db.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "importPath": "src.db.main",
+        "description": "src.db.main",
+        "isExtraImport": true,
+        "detail": "src.db.main",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPStatus",
+        "importPath": "http",
+        "description": "http",
+        "isExtraImport": true,
+        "detail": "http",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPStatus",
+        "importPath": "http",
+        "description": "http",
+        "isExtraImport": true,
+        "detail": "http",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPStatus",
+        "importPath": "http",
+        "description": "http",
+        "isExtraImport": true,
+        "detail": "http",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPStatus",
+        "importPath": "http",
+        "description": "http",
+        "isExtraImport": true,
+        "detail": "http",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPStatus",
+        "importPath": "http",
+        "description": "http",
+        "isExtraImport": true,
+        "detail": "http",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPStatus",
+        "importPath": "http",
+        "description": "http",
+        "isExtraImport": true,
+        "detail": "http",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPStatus",
+        "importPath": "http",
+        "description": "http",
+        "isExtraImport": true,
+        "detail": "http",
+        "documentation": {}
+    },
+    {
+        "label": "make_timezone_naive",
+        "importPath": "src.utils.date_convertion",
+        "description": "src.utils.date_convertion",
+        "isExtraImport": true,
+        "detail": "src.utils.date_convertion",
+        "documentation": {}
+    },
+    {
+        "label": "make_timezone_naive",
+        "importPath": "src.utils.date_convertion",
+        "description": "src.utils.date_convertion",
+        "isExtraImport": true,
+        "detail": "src.utils.date_convertion",
+        "documentation": {}
+    },
+    {
+        "label": "make_timezone_naive",
+        "importPath": "src.utils.date_convertion",
+        "description": "src.utils.date_convertion",
+        "isExtraImport": true,
+        "detail": "src.utils.date_convertion",
+        "documentation": {}
+    },
+    {
+        "label": "make_timezone_naive",
+        "importPath": "src.utils.date_convertion",
+        "description": "src.utils.date_convertion",
+        "isExtraImport": true,
+        "detail": "src.utils.date_convertion",
+        "documentation": {}
+    },
+    {
+        "label": "make_timezone_naive",
+        "importPath": "src.utils.date_convertion",
+        "description": "src.utils.date_convertion",
+        "isExtraImport": true,
+        "detail": "src.utils.date_convertion",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy.dialects.postgresql",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy.dialects.postgresql",
+        "description": "sqlalchemy.dialects.postgresql",
+        "detail": "sqlalchemy.dialects.postgresql",
+        "documentation": {}
+    },
+    {
+        "label": "JSON",
+        "importPath": "sqlalchemy.dialects.postgresql",
+        "description": "sqlalchemy.dialects.postgresql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects.postgresql",
+        "documentation": {}
+    },
+    {
+        "label": "JSON",
+        "importPath": "sqlalchemy.dialects.postgresql",
+        "description": "sqlalchemy.dialects.postgresql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects.postgresql",
+        "documentation": {}
+    },
+    {
+        "label": "JSON",
+        "importPath": "sqlalchemy.dialects.postgresql",
+        "description": "sqlalchemy.dialects.postgresql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects.postgresql",
+        "documentation": {}
+    },
+    {
+        "label": "JSON",
+        "importPath": "sqlalchemy.dialects.postgresql",
+        "description": "sqlalchemy.dialects.postgresql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects.postgresql",
+        "documentation": {}
+    },
+    {
+        "label": "JSON",
+        "importPath": "sqlalchemy.dialects.postgresql",
+        "description": "sqlalchemy.dialects.postgresql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects.postgresql",
+        "documentation": {}
+    },
+    {
+        "label": "JSON",
+        "importPath": "sqlalchemy.dialects.postgresql",
+        "description": "sqlalchemy.dialects.postgresql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects.postgresql",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "SettingsConfigDict",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "uvicorn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uvicorn",
+        "description": "uvicorn",
+        "detail": "uvicorn",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migration.versions.25aea62c09c7_init",
+        "description": "migration.versions.25aea62c09c7_init",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_unique_constraint(None, 'call_log', ['id'])\n    op.create_unique_constraint(None, 'ga_log', ['id'])\n    op.create_unique_constraint(None, 'gcb', ['id'])\n    op.create_unique_constraint(None, 'invoice_log', ['id'])\n    op.create_unique_constraint(None, 'master_data', ['id'])\n    op.create_unique_constraint(None, 'sc_log', ['id'])\n    op.add_column('users', sa.Column('password', sqlmodel.sql.sqltypes.AutoString(), nullable=False))\n    op.create_unique_constraint(None, 'users', ['id'])",
+        "detail": "migration.versions.25aea62c09c7_init",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migration.versions.25aea62c09c7_init",
+        "description": "migration.versions.25aea62c09c7_init",
+        "peekOfCode": "def downgrade() -> None:\n    # Avoid dropping non-existing constraints\n    conn = op.get_bind()\n    result = conn.execute(text(\"SELECT conname FROM pg_constraint WHERE conname = 'uq_users_id'\"))\n    if result.fetchone():\n        op.drop_constraint('uq_users_id', 'users', type_='unique')\n    # Drop other constraints with actual names\n    op.drop_constraint('uq_sc_log_constraint_name', 'sc_log', type_='unique')\n    op.drop_constraint('uq_master_data_constraint_name', 'master_data', type_='unique')\n    op.drop_constraint('uq_invoice_log_constraint_name', 'invoice_log', type_='unique')",
+        "detail": "migration.versions.25aea62c09c7_init",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migration.versions.8b5fd78bf6b9_init",
+        "description": "migration.versions.8b5fd78bf6b9_init",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.alter_column('users', 'password',\n               existing_type=sa.INTEGER(),\n               type_=sqlmodel.sql.sqltypes.AutoString(),\n               existing_nullable=False)\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.alter_column('users', 'password',",
+        "detail": "migration.versions.8b5fd78bf6b9_init",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migration.versions.8b5fd78bf6b9_init",
+        "description": "migration.versions.8b5fd78bf6b9_init",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.alter_column('users', 'password',\n               existing_type=sqlmodel.sql.sqltypes.AutoString(),\n               type_=sa.INTEGER(),\n               existing_nullable=False)\n    # ### end Alembic commands ###",
+        "detail": "migration.versions.8b5fd78bf6b9_init",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migration.versions.961af8fe5634_namechanged",
+        "description": "migration.versions.961af8fe5634_namechanged",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('users', sa.Column('date', sqlmodel.sql.sqltypes.AutoString(), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('users', 'date')\n    # ### end Alembic commands ###",
+        "detail": "migration.versions.961af8fe5634_namechanged",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migration.versions.961af8fe5634_namechanged",
+        "description": "migration.versions.961af8fe5634_namechanged",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('users', 'date')\n    # ### end Alembic commands ###",
+        "detail": "migration.versions.961af8fe5634_namechanged",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migration.versions.e607ea742197_init",
+        "description": "migration.versions.e607ea742197_init",
+        "peekOfCode": "def upgrade() -> None:\n    # Alter the 'password' column to INTEGER, with explicit casting\n    op.alter_column('users', 'password', \n                    type_=sa.Integer(), \n                    postgresql_using='password::integer')\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.alter_column('users', 'password', type_=sa.String())  # Or sa.Text()\n    # ### end Alembic commands ###",
+        "detail": "migration.versions.e607ea742197_init",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migration.versions.e607ea742197_init",
+        "description": "migration.versions.e607ea742197_init",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.alter_column('users', 'password', type_=sa.String())  # Or sa.Text()\n    # ### end Alembic commands ###",
+        "detail": "migration.versions.e607ea742197_init",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "migration.env",
+        "description": "migration.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")\n    context.configure(\n        url=url,\n        target_metadata=target_metadata,\n        literal_binds=True,\n        dialect_opts={\"paramstyle\": \"named\"},\n    )\n    with context.begin_transaction():",
+        "detail": "migration.env",
+        "documentation": {}
+    },
+    {
+        "label": "do_run_migrations",
+        "kind": 2,
+        "importPath": "migration.env",
+        "description": "migration.env",
+        "peekOfCode": "def do_run_migrations(connection: Connection) -> None:\n    \"\"\"Run migrations in 'online' mode with a connection.\"\"\"\n    context.configure(connection=connection, target_metadata=target_metadata)\n    with context.begin_transaction():\n        context.run_migrations()\nasync def run_async_migrations() -> None:\n    \"\"\"Run async migrations.\"\"\"\n    connectable = async_engine_from_config(\n        config.get_section(config.config_ini_section, {}),\n        prefix=\"sqlalchemy.\",",
+        "detail": "migration.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "migration.env",
+        "description": "migration.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\"\"\"\n    asyncio.run(run_async_migrations())\nif context.is_offline_mode():\n    run_migrations_offline()\nelse:\n    run_migrations_online()\n# command for migration\n#python -m alembic revision --autogenerate -m \"init\"\n#python -m alembic upgrade head",
+        "detail": "migration.env",
+        "documentation": {}
+    },
+    {
+        "label": "database_url",
+        "kind": 5,
+        "importPath": "migration.env",
+        "description": "migration.env",
+        "peekOfCode": "database_url = \"postgresql+asyncpg://postgres:1234@localhost:5432/crud_py\"\n# Alembic Config object\nconfig = context.config\nconfig.set_main_option('sqlalchemy.url', database_url)\n# Set up logging\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# Metadata for autogenerate\ntarget_metadata = SQLModel.metadata\ndef run_migrations_offline() -> None:",
+        "detail": "migration.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "migration.env",
+        "description": "migration.env",
+        "peekOfCode": "config = context.config\nconfig.set_main_option('sqlalchemy.url', database_url)\n# Set up logging\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# Metadata for autogenerate\ntarget_metadata = SQLModel.metadata\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "migration.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "migration.env",
+        "description": "migration.env",
+        "peekOfCode": "target_metadata = SQLModel.metadata\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")\n    context.configure(\n        url=url,\n        target_metadata=target_metadata,\n        literal_binds=True,\n        dialect_opts={\"paramstyle\": \"named\"},\n    )",
+        "detail": "migration.env",
+        "documentation": {}
+    },
+    {
+        "label": "call_log_router",
+        "kind": 5,
+        "importPath": "src.call_log.router",
+        "description": "src.call_log.router",
+        "peekOfCode": "call_log_router = APIRouter(\n    prefix=\"/call_log\"\n)\n@call_log_router.get(\"/\")\nasync def get_data(session: AsyncSession = Depends(get_session)):\n    try:\n        master = await call_log_Services(session).get_all_call_log_()\n        return {\n            \"message\": \"successful\",\n            \"data\": master",
+        "detail": "src.call_log.router",
+        "documentation": {}
+    },
+    {
+        "label": "call_log_createModel",
+        "kind": 6,
+        "importPath": "src.call_log.schema",
+        "description": "src.call_log.schema",
+        "peekOfCode": "class call_log_createModel(BaseModel):\n    brand_id: str\n    mobile_no:str\n    call_status:str\n    call_date_time: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))\n    call_duration:int\n    ring_duration:int\n    enquiry_about:str\n    record_file_path :str\n    summary:str",
+        "detail": "src.call_log.schema",
+        "documentation": {}
+    },
+    {
+        "label": "call_log_updateModel",
+        "kind": 6,
+        "importPath": "src.call_log.schema",
+        "description": "src.call_log.schema",
+        "peekOfCode": "class call_log_updateModel(BaseModel):\n    brand_id: str\n    mobile_no:str\n    call_status:str\n    call_date_time: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))\n    call_duration:int\n    ring_duration:int\n    enquiry_about:str\n    record_file_path :str\n    summary:str",
+        "detail": "src.call_log.schema",
+        "documentation": {}
+    },
+    {
+        "label": "call_log_Services",
+        "kind": 6,
+        "importPath": "src.call_log.service",
+        "description": "src.call_log.service",
+        "peekOfCode": "class call_log_Services:\n    def __init__(self, session: AsyncSession):\n        self.session = session\n    async def get_all_call_log_(self):\n        statement = select(Call_Log).order_by(Call_Log.created_at)\n        result = await self.session.exec(statement)\n        return result.all()\n    async def create_call_log(self, call_log__data: call_log_createModel):\n        new_google_analatics_ = Call_Log(**call_log__data.model_dump())\n        self.session.add(new_google_analatics_)  ",
+        "detail": "src.call_log.service",
+        "documentation": {}
+    },
+    {
+        "label": "async_engine",
+        "kind": 5,
+        "importPath": "src.db.main",
+        "description": "src.db.main",
+        "peekOfCode": "async_engine = create_async_engine(\n    url=settings.POSTGRES_URL,\n    echo=True  \n)\nasync def init_db():\n    async with async_engine.begin() as conn:\n        from .models import User\n        await conn.run_sync(SQLModel.metadata.create_all)\nasync def get_session() -> AsyncSession:\n    async_session = sessionmaker(",
+        "detail": "src.db.main",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "peekOfCode": "class User(SQLModel, table=True):\n    __tablename__ = \"users\"\n    id: UUID = Field(\n        sa_column=Column(pg.UUID, primary_key=True, unique=True, default=uuid4)\n    )\n    name: str\n    email: str\n    password: str\n    created_at: datetime = Field(default_factory=lambda: datetime.now())\n    updated_at: datetime = Field(default_factory=lambda: datetime.now())",
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "MasterData",
+        "kind": 6,
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "peekOfCode": "class MasterData(SQLModel, table=True):\n    __tablename__ = \"master_data\"  # Name of the table in the database\n    id: UUID = Field(\n        sa_column=Column(pg.UUID, primary_key=True, unique=True, default=uuid4)\n    )\n    brand_id: str\n    brand_name: str\n    total_location: int\n    total_microsite: int\n    total_live_on_gmb: int",
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Google_Analytics",
+        "kind": 6,
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "peekOfCode": "class Google_Analytics(SQLModel, table=True):\n    __tablename__ = \"ga_log\"  # Name of the table in the database\n    id: UUID = Field(\n        sa_column=Column(pg.UUID, primary_key=True, unique=True, default=uuid4)\n    )\n    brand_id: str\n    new_users: int\n    returning_users: int\n    total_engagement_time: int\n    top_countries_visits: Optional[dict] = Field(",
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "GCB",
+        "kind": 6,
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "peekOfCode": "class GCB(SQLModel, table=True):\n    __tablename__ = \"gcb\"  # Name of the table in the database\n    id: UUID = Field(\n        sa_column=Column(pg.UUID, primary_key=True, unique=True, default=uuid4)\n    )\n    brand_id: str\n    search_impressions: Optional[dict] = Field(\n        default_factory=dict, sa_column=Column(pgJSON)\n    )\n    map_impressions: Optional[dict] = Field(",
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Sc_Log",
+        "kind": 6,
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "peekOfCode": "class Sc_Log(SQLModel, table=True):\n    __tablename__ = \"sc_log\"  # Name of the table in the database\n    id: UUID = Field(\n        sa_column=Column(pg.UUID, primary_key=True, unique=True, default=uuid4)\n    )\n    brand_id: str\n    impressions: Optional[dict] = Field(default_factory=dict, sa_column=Column(pgJSON))\n    clicks: Optional[dict] = Field(default_factory=dict, sa_column=Column(pgJSON))\n    top_countries: Optional[dict] = Field(\n        default_factory=dict, sa_column=Column(pgJSON)",
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Call_Log",
+        "kind": 6,
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "peekOfCode": "class Call_Log(SQLModel, table=True):\n    __tablename__ = \"call_log\"  # Name of the table in the database\n    id: UUID = Field(\n        sa_column=Column(pg.UUID, primary_key=True, unique=True, default=uuid4)\n    )\n    brand_id: str\n    mobile_no: str\n    call_status: str\n    call_date_time: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))\n    call_duration: int",
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Invoice_Log",
+        "kind": 6,
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "peekOfCode": "class Invoice_Log(SQLModel, table=True):\n    __tablename__ = \"invoice_log\"  # Name of the table in the database\n    id: UUID = Field(\n        sa_column=Column(pg.UUID, primary_key=True, unique=True, default=uuid4)\n    )\n    brand_id: str\n    customer_phone: str\n    invoice_date: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))\n    total_amount: str\n    additional_data: Optional[dict] = Field(",
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "gcb_router",
+        "kind": 5,
+        "importPath": "src.gcb.router",
+        "description": "src.gcb.router",
+        "peekOfCode": "gcb_router = APIRouter(\n    prefix=\"/gcb\"\n)\n@gcb_router.get(\"/\")\nasync def get_data(session: AsyncSession = Depends(get_session)):\n    try:\n        master = await gcb_Services(session).get_all_gcb_()\n        return {\n            \"message\": \"successful\",\n            \"data\": master",
+        "detail": "src.gcb.router",
+        "documentation": {}
+    },
+    {
+        "label": "impression_model",
+        "kind": 6,
+        "importPath": "src.gcb.schema",
+        "description": "src.gcb.schema",
+        "peekOfCode": "class impression_model(BaseModel):\n    device_name: str\n    count: int\nclass gcb_createModel(BaseModel):\n    brand_id: str\n    search_impressions: Optional[impression_model] = Field(\n        default_factory=impression_model\n    )\n    map_impressions: Optional[impression_model] = Field(\n        default_factory=impression_model",
+        "detail": "src.gcb.schema",
+        "documentation": {}
+    },
+    {
+        "label": "gcb_createModel",
+        "kind": 6,
+        "importPath": "src.gcb.schema",
+        "description": "src.gcb.schema",
+        "peekOfCode": "class gcb_createModel(BaseModel):\n    brand_id: str\n    search_impressions: Optional[impression_model] = Field(\n        default_factory=impression_model\n    )\n    map_impressions: Optional[impression_model] = Field(\n        default_factory=impression_model\n    )\n    drive_driections: int\n    date_created: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))",
+        "detail": "src.gcb.schema",
+        "documentation": {}
+    },
+    {
+        "label": "gcb_updateModel",
+        "kind": 6,
+        "importPath": "src.gcb.schema",
+        "description": "src.gcb.schema",
+        "peekOfCode": "class gcb_updateModel(BaseModel):\n    brand_id: str\n    search_impressions: Optional[impression_model] = Field(\n        default_factory=impression_model\n    )\n    map_impressions: Optional[impression_model] = Field(\n        default_factory=impression_model\n    )\n    drive_driections: int\n    date_created: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))",
+        "detail": "src.gcb.schema",
+        "documentation": {}
+    },
+    {
+        "label": "gcb_Services",
+        "kind": 6,
+        "importPath": "src.gcb.service",
+        "description": "src.gcb.service",
+        "peekOfCode": "class gcb_Services:\n    def __init__(self, session: AsyncSession):\n        self.session = session\n    async def get_all_gcb_(self):\n        statement = select(GCB).order_by(GCB.created_at)\n        result = await self.session.exec(statement)\n        return result.all()\n    async def create_gcb(self, gcb__data: gcb_createModel):\n        new_google_analatics_ = GCB(**gcb__data.model_dump())\n        self.session.add(new_google_analatics_)  ",
+        "detail": "src.gcb.service",
+        "documentation": {}
+    },
+    {
+        "label": "analytics_router",
+        "kind": 5,
+        "importPath": "src.google_analatics.router",
+        "description": "src.google_analatics.router",
+        "peekOfCode": "analytics_router = APIRouter(\n    prefix=\"/analytics\"\n)\n@analytics_router.get(\"/\")\nasync def get_data(session: AsyncSession = Depends(get_session)):\n    try:\n        master = await google_analatics_Services(session).get_all_google_analatics_()\n        return {\n            \"message\": \"successful\",\n            \"data\": master",
+        "detail": "src.google_analatics.router",
+        "documentation": {}
+    },
+    {
+        "label": "country_model",
+        "kind": 6,
+        "importPath": "src.google_analatics.schema",
+        "description": "src.google_analatics.schema",
+        "peekOfCode": "class country_model(BaseModel):\n    country_name: str\n    count: int\nclass city_model(BaseModel):\n    city_name: str\n    count: int    \nclass google_analatics_CreateModel(BaseModel):\n    brand_id: str\n    new_users: int\n    returning_users: int",
+        "detail": "src.google_analatics.schema",
+        "documentation": {}
+    },
+    {
+        "label": "city_model",
+        "kind": 6,
+        "importPath": "src.google_analatics.schema",
+        "description": "src.google_analatics.schema",
+        "peekOfCode": "class city_model(BaseModel):\n    city_name: str\n    count: int    \nclass google_analatics_CreateModel(BaseModel):\n    brand_id: str\n    new_users: int\n    returning_users: int\n    total_engagement_time: int\n    top_countries_visits: Optional[country_model] = Field(default_factory=country_model)\n    top_cities_visits: Optional[city_model] = Field(default_factory=city_model)",
+        "detail": "src.google_analatics.schema",
+        "documentation": {}
+    },
+    {
+        "label": "google_analatics_CreateModel",
+        "kind": 6,
+        "importPath": "src.google_analatics.schema",
+        "description": "src.google_analatics.schema",
+        "peekOfCode": "class google_analatics_CreateModel(BaseModel):\n    brand_id: str\n    new_users: int\n    returning_users: int\n    total_engagement_time: int\n    top_countries_visits: Optional[country_model] = Field(default_factory=country_model)\n    top_cities_visits: Optional[city_model] = Field(default_factory=city_model)\n    date_created: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))\n    additional_data: Optional[dict] = Field(default_factory=dict)\n    class Config:",
+        "detail": "src.google_analatics.schema",
+        "documentation": {}
+    },
+    {
+        "label": "google_analatics_UpdateModel",
+        "kind": 6,
+        "importPath": "src.google_analatics.schema",
+        "description": "src.google_analatics.schema",
+        "peekOfCode": "class google_analatics_UpdateModel(BaseModel):\n    brand_id: str\n    new_users: int\n    returning_users: int\n    total_engagement_time: int\n    top_countries_visits: Optional[dict] = Field(default_factory=dict)\n    top_cities_visits: Optional[dict] = Field(default_factory=dict)\n    date_created: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))\n    additional_data: Optional[dict] = Field(default_factory=dict)\n    class Config:",
+        "detail": "src.google_analatics.schema",
+        "documentation": {}
+    },
+    {
+        "label": "google_analatics_Services",
+        "kind": 6,
+        "importPath": "src.google_analatics.service",
+        "description": "src.google_analatics.service",
+        "peekOfCode": "class google_analatics_Services:\n    def __init__(self, session: AsyncSession):\n        self.session = session\n    async def get_all_google_analatics_(self):\n        statement = select(Google_Analytics).order_by(Google_Analytics.created_at)\n        result = await self.session.exec(statement)\n        return result.all()\n    async def create_google_analatics(self, google_analatics__data: google_analatics_CreateModel):\n        new_google_analatics_ = Google_Analytics(**google_analatics__data.model_dump())\n        self.session.add(new_google_analatics_)  ",
+        "detail": "src.google_analatics.service",
+        "documentation": {}
+    },
+    {
+        "label": "invoice_log_createModel",
+        "kind": 6,
+        "importPath": "src.invoice_log.schema",
+        "description": "src.invoice_log.schema",
+        "peekOfCode": "class invoice_log_createModel(BaseModel):\n   brand_id: str\n   customer_phone:str\n   invoice_date: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))\n   total_amount:str\n   additional_data: Optional[dict] = Field(default_factory=dict)\n   sync_status:bool\n   sync_time:datetime = Field(default_factory=lambda: datetime.now(timezone.utc))\n   class Config:\n     orm_mode = True  ",
+        "detail": "src.invoice_log.schema",
+        "documentation": {}
+    },
+    {
+        "label": "invoice_log_updateModel",
+        "kind": 6,
+        "importPath": "src.invoice_log.schema",
+        "description": "src.invoice_log.schema",
+        "peekOfCode": "class invoice_log_updateModel(BaseModel):\n   brand_id: str\n   customer_phone:str\n   invoice_date: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))\n   total_amount:str\n   additional_data: Optional[dict] = Field(default_factory=dict)\n   sync_status:bool\n   sync_time:datetime = Field(default_factory=lambda: datetime.now(timezone.utc))\n   class Config:\n      orm_mode = True",
+        "detail": "src.invoice_log.schema",
+        "documentation": {}
+    },
+    {
+        "label": "invoice_log_Services",
+        "kind": 6,
+        "importPath": "src.invoice_log.service",
+        "description": "src.invoice_log.service",
+        "peekOfCode": "class invoice_log_Services:\n    def __init__(self, session: AsyncSession):\n        self.session = session\n    async def get_all_invoice_log_(self):\n        statement = select(Invoice_Log).order_by(Invoice_Log.created_at)\n        result = await self.session.exec(statement)\n        return result.all()\n    async def create_invoice_log(self, invoice_log__data: invoice_log_createModel):\n        new_google_analatics_ = Invoice_Log(**invoice_log__data.model_dump())\n        self.session.add(new_google_analatics_)  ",
+        "detail": "src.invoice_log.service",
+        "documentation": {}
+    },
+    {
+        "label": "master_router",
+        "kind": 5,
+        "importPath": "src.master_data.router",
+        "description": "src.master_data.router",
+        "peekOfCode": "master_router = APIRouter(\n    prefix=\"/masterdata\"\n)\n@master_router.get(\"/\")\nasync def get_masterDetails(session: AsyncSession = Depends(get_session)):\n    try:\n        master = await masterServices(session).get_all_master()\n        return {\n            \"message\": \"successful\",\n            \"data\": master",
+        "detail": "src.master_data.router",
+        "documentation": {}
+    },
+    {
+        "label": "masterCreateModel",
+        "kind": 6,
+        "importPath": "src.master_data.schema",
+        "description": "src.master_data.schema",
+        "peekOfCode": "class masterCreateModel(BaseModel):\n    brand_id: str\n    brand_name: str\n    total_location: int\n    total_microsite: int\n    total_live_on_gmb: int\n    total_ivr: int\n    total_products: int\n    total_pages: int\nclass masterUpdateModel(BaseModel):",
+        "detail": "src.master_data.schema",
+        "documentation": {}
+    },
+    {
+        "label": "masterUpdateModel",
+        "kind": 6,
+        "importPath": "src.master_data.schema",
+        "description": "src.master_data.schema",
+        "peekOfCode": "class masterUpdateModel(BaseModel):\n    brand_id: str\n    brand_name: str\n    total_location: int\n    total_microsite: int\n    total_live_on_gmb: int\n    total_ivr: int\n    total_products: int\n    total_pages: int\n    class Config:",
+        "detail": "src.master_data.schema",
+        "documentation": {}
+    },
+    {
+        "label": "masterServices",
+        "kind": 6,
+        "importPath": "src.master_data.service",
+        "description": "src.master_data.service",
+        "peekOfCode": "class masterServices:\n    def __init__(self, session: AsyncSession):\n        self.session = session\n    async def get_all_master(self):\n        statement = select(MasterData).order_by(MasterData.created_at)\n        result = await self.session.exec(statement)\n        return result.all()\n    async def create_master(self, master_data: masterCreateModel):\n        new_master = MasterData(**master_data.model_dump())\n        self.session.add(new_master)  # Just use `self.session.add()` here, no need for `await`",
+        "detail": "src.master_data.service",
+        "documentation": {}
+    },
+    {
+        "label": "sc_log_router",
+        "kind": 5,
+        "importPath": "src.sc_log.router",
+        "description": "src.sc_log.router",
+        "peekOfCode": "sc_log_router = APIRouter(\n    prefix=\"/sc_log\"\n)\n@sc_log_router.get(\"/\")\nasync def get_data(session: AsyncSession = Depends(get_session)):\n    try:\n        master = await sc_log_Services(session).get_all_sc_log_()\n        return {\n            \"message\": \"successful\",\n            \"data\": master",
+        "detail": "src.sc_log.router",
+        "documentation": {}
+    },
+    {
+        "label": "sc_log_createModel",
+        "kind": 6,
+        "importPath": "src.sc_log.schema",
+        "description": "src.sc_log.schema",
+        "peekOfCode": "class sc_log_createModel(BaseModel):\n    brand_id: str\n    impressions: Optional[dict] = Field(default_factory=dict)\n    clicks: Optional[dict] = Field(default_factory=dict)\n    top_countries: Optional[dict] = Field(default_factory=dict)\n    avg_ctr :int\n    avg_position:int\n    class Config:\n        orm_mode = True  \nclass sc_log_updateModel(BaseModel):",
+        "detail": "src.sc_log.schema",
+        "documentation": {}
+    },
+    {
+        "label": "sc_log_updateModel",
+        "kind": 6,
+        "importPath": "src.sc_log.schema",
+        "description": "src.sc_log.schema",
+        "peekOfCode": "class sc_log_updateModel(BaseModel):\n    brand_id: str\n    impressions: Optional[dict] = Field(default_factory=dict)\n    clicks: Optional[dict] = Field(default_factory=dict)\n    top_countries: Optional[dict] = Field(default_factory=dict)\n    avg_ctr :int\n    avg_position:int\n    class Config:\n        orm_mode = True",
+        "detail": "src.sc_log.schema",
+        "documentation": {}
+    },
+    {
+        "label": "sc_log_Services",
+        "kind": 6,
+        "importPath": "src.sc_log.service",
+        "description": "src.sc_log.service",
+        "peekOfCode": "class sc_log_Services:\n    def __init__(self, session: AsyncSession):\n        self.session = session\n    async def get_all_sc_log_(self):\n        statement = select(Sc_Log).order_by(Sc_Log.created_at)\n        result = await self.session.exec(statement)\n        return result.all()\n    async def create_sc_log(self, sc_log__data: sc_log_createModel):\n        new_google_analatics_ = Sc_Log(**sc_log__data.model_dump())\n        self.session.add(new_google_analatics_)  ",
+        "detail": "src.sc_log.service",
+        "documentation": {}
+    },
+    {
+        "label": "userResponseModel",
+        "kind": 6,
+        "importPath": "src.users.schema",
+        "description": "src.users.schema",
+        "peekOfCode": "class userResponseModel(User):\n    pass\nclass userCreateModel(BaseModel):\n    name:str",
+        "detail": "src.users.schema",
+        "documentation": {}
+    },
+    {
+        "label": "userCreateModel",
+        "kind": 6,
+        "importPath": "src.users.schema",
+        "description": "src.users.schema",
+        "peekOfCode": "class userCreateModel(BaseModel):\n    name:str",
+        "detail": "src.users.schema",
+        "documentation": {}
+    },
+    {
+        "label": "userService",
+        "kind": 6,
+        "importPath": "src.users.service",
+        "description": "src.users.service",
+        "peekOfCode": "class userService:\n    def __init__(self, session: AsyncSession):\n        self.session = session\n    async def get_all_user(self):\n        statement = select(User).order_by(User.created_at)\n        result = await self.session.exec(statement)\n        return result.all()\n    async def create_User(self, user_data: userCreateModel):\n        new_user = User(**user_data.model_dump())\n        self.session.add(new_user)  # Just use `self.session.add()` here, no need for `await`",
+        "detail": "src.users.service",
+        "documentation": {}
+    },
+    {
+        "label": "make_timezone_naive",
+        "kind": 2,
+        "importPath": "src.utils.date_convertion",
+        "description": "src.utils.date_convertion",
+        "peekOfCode": "def make_timezone_naive(dt):\n    if dt.tzinfo is not None:\n        return dt.astimezone(datetime.timezone.utc).replace(tzinfo=None)\n    return dt",
+        "detail": "src.utils.date_convertion",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "class Settings(BaseSettings):\n    POSTGRES_URL: str\n    model_config = SettingsConfigDict(\n        env_file=\".env\",  # Ensure .env file is correctly specified\n        extra=\"ignore\"\n    )\n# Test loading the environment variable\nsettings = Settings()\n# Output the settings model dump\nprint(settings.model_dump())",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "settings = Settings()\n# Output the settings model dump\nprint(settings.model_dump())",
+        "detail": "src.config",
+        "documentation": {}
+    }
+]
