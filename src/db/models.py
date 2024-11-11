@@ -4,7 +4,7 @@ import sqlalchemy.dialects.postgresql as pg
 from datetime import datetime, timezone
 from typing import Optional
 from sqlalchemy.dialects.postgresql import JSON as pgJSON
-
+from sqlalchemy import String
 
 class User(SQLModel, table=True):
         __tablename__ = 'users'  
