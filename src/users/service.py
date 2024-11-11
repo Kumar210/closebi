@@ -5,7 +5,7 @@ from .schema import userCreateModel,login
 # from sqlmodel import select
 from sqlalchemy.future import select
 import bcrypt
-from src.utils.jwt import create_jwt_token
+from src.utils.jwt.jwt import create_jwt_token
 from src.utils.bcrypt import verify_password
 
 
@@ -32,8 +32,8 @@ class userService:
         hashed_password = bcrypt.hashpw(user_data.password.encode('utf-8'), bcrypt.gensalt()).decode('utf-8')  # decode bytes to string
 
     # Use model_dump to get the data and update the password
-        user_dict = user_data.model_dump()  # Convert pydantic model to a dictionary
-        user_dict['password'] = hashed_password  # Override the password field with the hashed password
+        user_dict = user_data.model_dump() 
+        user_dict['password'] = hashed_password
 
     # Create a new user with the hashed password
         new_user = User(**user_dict)
@@ -45,7 +45,6 @@ class userService:
         return new_user
     
     
-
     async def login(self,userLogin:login,secret_key: str):
         statement = select(User).where(User.email == userLogin.email)
         result = await self.session.exec(statement)

@@ -6,13 +6,13 @@ from .service import userService
 from .schema import userResponseModel,userCreateModel,login
 from typing import List
 from src.config import settings
-
+from src.utils.jwt.verify_token import admin_required
 user_router =APIRouter(
     prefix="/user"
 )
 
 @user_router.get("/", response_model=List[userResponseModel])
-async def get_userDetails(session:AsyncSession=Depends(get_session),form_data: OAuth2PasswordRequestForm = Depends()):
+async def get_userDetails(session:AsyncSession=Depends(get_session)):
     users = await userService(session).get_all_user()
     return users
 
