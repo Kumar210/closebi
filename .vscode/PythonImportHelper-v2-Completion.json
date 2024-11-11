@@ -248,6 +248,14 @@
         "documentation": {}
     },
     {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Optional",
         "importPath": "typing",
         "description": "typing",
@@ -555,6 +563,22 @@
         "documentation": {}
     },
     {
+        "label": "Permission",
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "isExtraImport": true,
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Permission",
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "isExtraImport": true,
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
         "label": "Sc_Log",
         "importPath": "src.db.models",
         "description": "src.db.models",
@@ -576,6 +600,46 @@
         "description": "src.db.models",
         "isExtraImport": true,
         "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
         "documentation": {}
     },
     {
@@ -1043,11 +1107,19 @@
         "documentation": {}
     },
     {
-        "label": "get_session",
-        "importPath": "src.db.main",
-        "description": "src.db.main",
+        "label": "AsyncSession",
+        "importPath": "sqlmodel.ext.asyncio.session",
+        "description": "sqlmodel.ext.asyncio.session",
         "isExtraImport": true,
-        "detail": "src.db.main",
+        "detail": "sqlmodel.ext.asyncio.session",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlmodel.ext.asyncio.session",
+        "description": "sqlmodel.ext.asyncio.session",
+        "isExtraImport": true,
+        "detail": "sqlmodel.ext.asyncio.session",
         "documentation": {}
     },
     {
@@ -1096,6 +1168,30 @@
         "description": "src.db.main",
         "isExtraImport": true,
         "detail": "src.db.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "importPath": "src.db.main",
+        "description": "src.db.main",
+        "isExtraImport": true,
+        "detail": "src.db.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "importPath": "src.db.main",
+        "description": "src.db.main",
+        "isExtraImport": true,
+        "detail": "src.db.main",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPStatus",
+        "importPath": "http",
+        "description": "http",
+        "isExtraImport": true,
+        "detail": "http",
         "documentation": {}
     },
     {
@@ -1252,6 +1348,14 @@
     },
     {
         "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -1509,6 +1613,14 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
         "label": "uuid",
         "kind": 6,
         "isExtraImport": true,
@@ -1542,6 +1654,22 @@
         "documentation": {}
     },
     {
+        "label": "admin_required",
+        "importPath": "src.utils.jwt.verify_token",
+        "description": "src.utils.jwt.verify_token",
+        "isExtraImport": true,
+        "detail": "src.utils.jwt.verify_token",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy.future",
+        "description": "sqlalchemy.future",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.future",
+        "documentation": {}
+    },
+    {
         "label": "select",
         "importPath": "sqlalchemy.future",
         "description": "sqlalchemy.future",
@@ -1564,6 +1692,22 @@
         "description": "src.utils.jwt.jwt",
         "isExtraImport": true,
         "detail": "src.utils.jwt.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "create_jwt_token",
+        "importPath": "src.utils.jwt.jwt",
+        "description": "src.utils.jwt.jwt",
+        "isExtraImport": true,
+        "detail": "src.utils.jwt.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "importPath": "src.utils.bcrypt",
+        "description": "src.utils.bcrypt",
+        "isExtraImport": true,
+        "detail": "src.utils.bcrypt",
         "documentation": {}
     },
     {
@@ -1867,6 +2011,15 @@
         "documentation": {}
     },
     {
+        "label": "Permission",
+        "kind": 6,
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "peekOfCode": "class Permission(SQLModel, table=True):\n    __tablename__ = \"permission\"  # Name of the table in the database\n    id: UUID = Field(\n        sa_column=Column(pg.UUID, primary_key=True, unique=True, default=uuid4)\n    )\n    name:str\n    created_at: datetime = Field(default_factory=lambda: datetime.now())\n    updated_at: datetime = Field(default_factory=lambda: datetime.now())\n    def __repr__(self) -> str:\n        return f\"Permission => {self.brand_name} at {self.created_at}\"",
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
         "label": "Google_Analytics",
         "kind": 6,
         "importPath": "src.db.models",
@@ -2071,6 +2224,33 @@
         "description": "src.master_data.service",
         "peekOfCode": "class masterServices:\n    def __init__(self, session: AsyncSession):\n        self.session = session\n    async def get_all_master(self):\n        statement = select(MasterData).order_by(MasterData.created_at)\n        result = await self.session.exec(statement)\n        return result.all()\n    async def create_master(self, master_data: masterCreateModel):\n        new_master = MasterData(**master_data.model_dump())\n        self.session.add(new_master)  # Just use `self.session.add()` here, no need for `await`",
         "detail": "src.master_data.service",
+        "documentation": {}
+    },
+    {
+        "label": "permissionResponseModel",
+        "kind": 6,
+        "importPath": "src.permission.schema",
+        "description": "src.permission.schema",
+        "peekOfCode": "class permissionResponseModel(Permission):\n    pass\nclass permissionCreateModel(BaseModel):\n    name:str",
+        "detail": "src.permission.schema",
+        "documentation": {}
+    },
+    {
+        "label": "permissionCreateModel",
+        "kind": 6,
+        "importPath": "src.permission.schema",
+        "description": "src.permission.schema",
+        "peekOfCode": "class permissionCreateModel(BaseModel):\n    name:str",
+        "detail": "src.permission.schema",
+        "documentation": {}
+    },
+    {
+        "label": "permissionService",
+        "kind": 6,
+        "importPath": "src.permission.service",
+        "description": "src.permission.service",
+        "peekOfCode": "class permissionService:\n    def __init__(self, session: AsyncSession):\n        self.session = session\n    async def get_all_user(self):\n        statement = select(Permission).order_by(Permission.created_at)\n        result = await self.session.exec(statement)\n        return result.all()\n    async def create_gcb(self, permission_data: permissionCreateModel):\n        permission = Permission(**permission_data.model_dump())\n        self.session.add(permission)  ",
+        "detail": "src.permission.service",
         "documentation": {}
     },
     {
