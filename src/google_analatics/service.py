@@ -15,18 +15,16 @@ class google_analatics_Services:
 
     async def create_google_analatics(self, google_analatics__data: google_analatics_CreateModel):
         new_google_analatics_ = Google_Analytics(**google_analatics__data.model_dump())
-        self.session.add(new_google_analatics_)  # Just use `self.session.add()` here, no need for `await`
+        self.session.add(new_google_analatics_)  
         await self.session.commit()
-        await self.session.refresh(new_google_analatics_)  # Refresh the instance with the database state
+        await self.session.refresh(new_google_analatics_)  
         return new_google_analatics_
     
     async def google_analatics__getByID(self,id):
         statement = select(Google_Analytics).where(Google_Analytics.id == id)
         result = await self.session.exec(statement)
         return result.first()
-    
-    
- 
+
     async def update_google_analatics_(self,google_analatics__id:str,updated_data:google_analatics_CreateModel):
         statement = select(Google_Analytics).where(Google_Analytics.id == google_analatics__id)
         result = await self.session.exec(statement)

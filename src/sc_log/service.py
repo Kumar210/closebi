@@ -15,9 +15,9 @@ class sc_log_Services:
 
     async def create_sc_log(self, sc_log__data: sc_log_createModel):
         new_google_analatics_ = Sc_Log(**sc_log__data.model_dump())
-        self.session.add(new_google_analatics_)  # Just use `self.session.add()` here, no need for `await`
+        self.session.add(new_google_analatics_)  
         await self.session.commit()
-        await self.session.refresh(new_google_analatics_)  # Refresh the instance with the database state
+        await self.session.refresh(new_google_analatics_)  
         return new_google_analatics_
     
     async def sc_log__getByID(self,id):
