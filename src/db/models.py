@@ -4,7 +4,8 @@ import sqlalchemy.dialects.postgresql as pg
 from datetime import datetime, timezone
 from typing import Optional
 from sqlalchemy.dialects.postgresql import JSON as pgJSON
-from sqlalchemy import String
+from sqlalchemy import String,ForeignKey,Integer
+from sqlalchemy.orm import relationship,Mapped,mapped_column
 
 
 class User(SQLModel, table=True):
@@ -174,3 +175,50 @@ class Invoice_Log(SQLModel, table=True):
 
     def __repr__(self) -> str:
         return f"Sc_Log => {self.brand_id} at {self.created_at}"
+
+
+class RolePermission(SQLModel,table=True):
+    __tablename__  = "rolePermission"
+        
+    id: UUID = Field(
+        sa_column=Column(pg.UUID, primary_key=True, unique=True, default=uuid4)
+    )
+    # role_id:Mapped[int] = mapped_column(ForeignKey("role.id"), primary_key=True)
+    role_id: UUID = Field(default=None, foreign_key="role.id", primary_key=True)
+    permission_id: UUID = Field(default=None, foreign_key="permission.id", primary_key=True)
+
+    created_at: datetime = Field(default_factory=lambda: datetime.now())
+    updated_at: datetime = Field(default_factory=lambda: datetime.now())
+
+    role_id = relationship("Role")
+    permission_id = relationship("Permission")
+    def __repr__(self) -> str:
+        return f"Sc_Log => {self.role_id} at {self.created_at}"
+        
+        
+class Permission(SQLModel, table=True):
+    __tablename__ = "permissions" 
+
+    id: UUID = Field(default_factory=uuid4 ,primary_key=True, unique=True)
+    name: str
+    created_at: datetime = Field(default_factory=lambda: datetime.now())
+    updated_at: datetime = Field(default_factory=lambda: datetime.now())
+
+    def __repr__(self) -> str:
+        return f"Permission => {self.name} at {self.created_at}"
+
+
+# Role table
+class Role(SQLModel, table=True):
+    __tablename__ = "role"
+
+    id: UUID = Field(
+        sa_column=Column(pg.UUID, primary_key=True, unique=True, default=uuid4)
+    )
+    name: str
+    created_at: datetime = Field(default_factory=lambda: datetime.now())
+    updated_at: datetime = Field(default_factory=lambda: datetime.now())
+    # permission: Mapped[List["RolePermission"]] = relationship(back_populates="role")
+
+    def __repr__(self) -> str:
+        return f"Role => {self.name} at {self.created_at}"

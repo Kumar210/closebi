@@ -369,6 +369,22 @@
         "documentation": {}
     },
     {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "sqlmodel",
         "kind": 6,
         "isExtraImport": true,
@@ -1581,6 +1597,30 @@
         "documentation": {}
     },
     {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "settings",
         "importPath": "src.config",
         "description": "src.config",
@@ -2061,6 +2101,33 @@
         "importPath": "src.db.models",
         "description": "src.db.models",
         "peekOfCode": "class Invoice_Log(SQLModel, table=True):\n    __tablename__ = \"invoice_log\"  # Name of the table in the database\n    id: UUID = Field(\n        sa_column=Column(pg.UUID, primary_key=True, unique=True, default=uuid4)\n    )\n    brand_id: str\n    customer_phone: str\n    invoice_date: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))\n    total_amount: str\n    additional_data: Optional[dict] = Field(",
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "RolePermission",
+        "kind": 6,
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "peekOfCode": "class RolePermission(SQLModel,table=True):\n    __tablename__  = \"rolePermission\"\n    id: UUID = Field(\n        sa_column=Column(pg.UUID, primary_key=True, unique=True, default=uuid4)\n    )\n    # role_id:Mapped[int] = mapped_column(ForeignKey(\"role.id\"), primary_key=True)\n    role_id: UUID = Field(default=None, foreign_key=\"role.id\", primary_key=True)\n    permission_id: UUID = Field(default=None, foreign_key=\"permission.id\", primary_key=True)\n    created_at: datetime = Field(default_factory=lambda: datetime.now())\n    updated_at: datetime = Field(default_factory=lambda: datetime.now())",
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Permission",
+        "kind": 6,
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "peekOfCode": "class Permission(SQLModel, table=True):\n    __tablename__ = \"permissions\" \n    id: UUID = Field(default_factory=uuid4 ,primary_key=True, unique=True)\n    name: str\n    created_at: datetime = Field(default_factory=lambda: datetime.now())\n    updated_at: datetime = Field(default_factory=lambda: datetime.now())\n    def __repr__(self) -> str:\n        return f\"Permission => {self.name} at {self.created_at}\"\n# Role table\nclass Role(SQLModel, table=True):",
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Role",
+        "kind": 6,
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "peekOfCode": "class Role(SQLModel, table=True):\n    __tablename__ = \"role\"\n    id: UUID = Field(\n        sa_column=Column(pg.UUID, primary_key=True, unique=True, default=uuid4)\n    )\n    name: str\n    created_at: datetime = Field(default_factory=lambda: datetime.now())\n    updated_at: datetime = Field(default_factory=lambda: datetime.now())\n    # permission: Mapped[List[\"RolePermission\"]] = relationship(back_populates=\"role\")\n    def __repr__(self) -> str:",
         "detail": "src.db.models",
         "documentation": {}
     },
