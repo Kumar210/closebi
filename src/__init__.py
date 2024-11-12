@@ -9,6 +9,7 @@ from src.sc_log.router import sc_log_router
 from src.call_log.router import call_log_router
 from src.invoice_log.router import invoice_log_router
 from src.permission.route import permission_router
+from src.role.route import role_router
 
 
 @asynccontextmanager
@@ -35,3 +36,4 @@ app.include_router(sc_log_router, tags=["Search Console"])
 app.include_router(call_log_router, tags=["Call logs service"])
 app.include_router(invoice_log_router, tags=["Revenue service"])
 app.include_router(permission_router,tags=["Permission"])
+app.include_router(role_router,tags=["Role"])

@@ -2,28 +2,29 @@ from sqlmodel import SQLModel, Field, Column
 from uuid import UUID, uuid4
 import sqlalchemy.dialects.postgresql as pg
 from datetime import datetime, timezone
-from typing import Optional
+from typing import Optional,List
 from sqlalchemy.dialects.postgresql import JSON as pgJSON
-from sqlalchemy import String
+from sqlalchemy import String,ForeignKey
+from sqlalchemy.orm import relationship,Mapped,mapped_column
 
 
 class User(SQLModel, table=True):
-        __tablename__ = 'users'  
+    __tablename__ = 'users'  
         
-        id: UUID = Field(
-            sa_column=Column(pg.UUID(as_uuid=True), primary_key=True, unique=True, default=uuid4)
-        )
-        name: str
-        email: str = Field(sa_column=Column(String, unique=True, index=True))  # Fixed email definition
-        password: str
-        isSuperAdmin: bool = Field(default=False)
-        isClientAdmin: bool = Field(default=False)
-        isClientUser: bool = Field(default=False)
-        created_at: datetime = Field(default_factory=lambda: datetime.now())
-        updated_at: datetime = Field(default_factory=lambda: datetime.now())
+    id: UUID = Field(
+        sa_column=Column(pg.UUID(as_uuid=True), primary_key=True, unique=True, default=uuid4)
+    )
+    name: str
+    email: str = Field(sa_column=Column(String, unique=True, index=True))  # Fixed email definition
+    password: str
+    isSuperAdmin: bool = Field(default=False)
+    isClientAdmin: bool = Field(default=False)
+    isClientUser: bool = Field(default=False)
+    created_at: datetime = Field(default_factory=lambda: datetime.now())
+    updated_at: datetime = Field(default_factory=lambda: datetime.now())
 
-        def __repr__(self) -> str:
-            return f"User => {self.name} at {self.created_at}"
+    def __repr__(self) -> str:
+        return f"User => {self.name} at {self.created_at}"
 
 
 class MasterData(SQLModel, table=True):
@@ -47,18 +48,47 @@ class MasterData(SQLModel, table=True):
         return f"MasterData => {self.brand_name} at {self.created_at}"
     
     
+class RolePermission(SQLModel,table=True):
+    __tablename__  = "rolePermission"
+        
+    id: UUID = Field(
+        sa_column=Column(pg.UUID, primary_key=True, unique=True, default=uuid4)
+    )
+    role_id:Mapped[int] = mapped_column(ForeignKey("role.id"), primary_key=True)
+    permission_id:Mapped[int] = mapped_column(ForeignKey("permission.id"), primary_key=True)
+    Role: Mapped["Role"] = relationship(back_populates="permission")
+    Permission: Mapped["Permission"] = relationship(back_populates="role")
+        
+        
 class Permission(SQLModel, table=True):
     __tablename__ = "permission"  # Name of the table in the database
 
     id: UUID = Field(
         sa_column=Column(pg.UUID, primary_key=True, unique=True, default=uuid4)
     )
-    name:str
+    name: str
     created_at: datetime = Field(default_factory=lambda: datetime.now())
     updated_at: datetime = Field(default_factory=lambda: datetime.now())
+    role: Mapped[List["RolePermission"]] = relationship(back_populates="permission")
 
     def __repr__(self) -> str:
-        return f"Permission => {self.brand_name} at {self.created_at}"
+        return f"Permission => {self.name} at {self.created_at}"
+
+
+# Role table
+class Role(SQLModel, table=True):
+    __tablename__ = "role"
+
+    id: UUID = Field(
+        sa_column=Column(pg.UUID, primary_key=True, unique=True, default=uuid4)
+    )
+    name: str
+    created_at: datetime = Field(default_factory=lambda: datetime.now())
+    updated_at: datetime = Field(default_factory=lambda: datetime.now())
+    permission: Mapped[List["RolePermission"]] = relationship(back_populates="role")
+
+    def __repr__(self) -> str:
+        return f"Role => {self.name} at {self.created_at}"
 
 
 class Google_Analytics(SQLModel, table=True):
