@@ -1,6 +1,6 @@
 from fastapi import HTTPException
 from sqlmodel.ext.asyncio.session import AsyncSession
-from src.db.models import Role
+from src.db.models import Role, RolePermission
 from .schema import Role,roleCreateModel
 from sqlalchemy.future import select
 
@@ -21,3 +21,12 @@ class roleService:
         await self.session.commit()
         await self.session.refresh(role)  
         return role
+    
+    
+    async def assignRolePermission(self,rolePermissionData:RolePermission):
+        rolePermission = RolePermission(**rolePermissionData.model_dump())
+        self.session.add(rolePermission)
+        await self.session.commit()
+        await self.session.refresh(rolePermission)  
+        return rolePermission
+        
