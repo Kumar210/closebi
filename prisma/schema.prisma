@@ -1,0 +1,15 @@
+generator client {
+    provider             = "Prisma-client-py"
+    recursive_type_depth = 5
+}
+
+datasource db {
+    provider = "postgresql"
+    url      = "postgresql://postgres:1234@localhost:5432/kalyan"
+}
+
+model Post {
+    id    Int    @id @default(autoincrement())
+    email String @unique
+    name  String
+}

@@ -1,26 +1,15 @@
-from sqlalchemy.ext.asyncio import create_async_engine
-from sqlmodel.ext.asyncio.session import AsyncSession
-from sqlmodel import text , SQLModel
-from sqlalchemy.orm import sessionmaker
-from src.config import settings
+from prisma import Prisma
 
-async_engine = create_async_engine(
-    url=settings.POSTGRES_URL,
-    echo=True  
-)
 
-async def init_db():
-    async with async_engine.begin() as conn:
-        from .models import User
-        await conn.run_sync(SQLModel.metadata.create_all)
-    
+class PrismaConnection:
+    def __init__(self):
+        self.prisma = Prisma()
 
-async def get_session() -> AsyncSession:
-    async_session = sessionmaker(
-        bind=async_engine,
-        class_=AsyncSession,
-        expire_on_commit=False
-    )
+    async def connect(self):
+        await self.prisma.connect()
 
-    async with async_session() as session:
-        yield session
+    async def disconnect(self):
+        await self.prisma.disconnect()
+
+
+init_db = PrismaConnection()

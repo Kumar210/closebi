@@ -8,16 +8,3 @@ class permissionResponseModel(Permission):
 
 class permissionCreateModel(BaseModel):
     name:str
-
-
-class RolePermissionResponseMModel(RolePermission):
-    pass
-
-
-class rolePermissionCreateModel(BaseModel):
-    name:str
-    role_id:str
-    permission_id:str
-    
-    class Config:
-        orm_mode = True

@@ -4,9 +4,6 @@ from src.db.models import Permission
 from .schema import Permission,permissionCreateModel
 # from sqlmodel import select
 from sqlalchemy.future import select
-import bcrypt
-from src.utils.jwt.jwt import create_jwt_token
-from src.utils.bcrypt import verify_password
 
 
 class permissionService:
