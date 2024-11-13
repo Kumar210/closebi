@@ -256,6 +256,14 @@
         "documentation": {}
     },
     {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Optional",
         "importPath": "typing",
         "description": "typing",
@@ -587,7 +595,47 @@
         "documentation": {}
     },
     {
+        "label": "RolePermission",
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "isExtraImport": true,
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
         "label": "Permission",
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "isExtraImport": true,
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Role",
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "isExtraImport": true,
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "RolePermission",
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "isExtraImport": true,
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Role",
+        "importPath": "src.db.models",
+        "description": "src.db.models",
+        "isExtraImport": true,
+        "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "RolePermission",
         "importPath": "src.db.models",
         "description": "src.db.models",
         "isExtraImport": true,
@@ -616,6 +664,46 @@
         "description": "src.db.models",
         "isExtraImport": true,
         "detail": "src.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
         "documentation": {}
     },
     {
@@ -1139,11 +1227,19 @@
         "documentation": {}
     },
     {
-        "label": "get_session",
-        "importPath": "src.db.main",
-        "description": "src.db.main",
+        "label": "AsyncSession",
+        "importPath": "sqlmodel.ext.asyncio.session",
+        "description": "sqlmodel.ext.asyncio.session",
         "isExtraImport": true,
-        "detail": "src.db.main",
+        "detail": "sqlmodel.ext.asyncio.session",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlmodel.ext.asyncio.session",
+        "description": "sqlmodel.ext.asyncio.session",
+        "isExtraImport": true,
+        "detail": "sqlmodel.ext.asyncio.session",
         "documentation": {}
     },
     {
@@ -1200,6 +1296,30 @@
         "description": "src.db.main",
         "isExtraImport": true,
         "detail": "src.db.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "importPath": "src.db.main",
+        "description": "src.db.main",
+        "isExtraImport": true,
+        "detail": "src.db.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_session",
+        "importPath": "src.db.main",
+        "description": "src.db.main",
+        "isExtraImport": true,
+        "detail": "src.db.main",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPStatus",
+        "importPath": "http",
+        "description": "http",
+        "isExtraImport": true,
+        "detail": "http",
         "documentation": {}
     },
     {
@@ -1364,6 +1484,14 @@
     },
     {
         "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -1718,6 +1846,14 @@
         "documentation": {}
     },
     {
+        "label": "select",
+        "importPath": "sqlalchemy.future",
+        "description": "sqlalchemy.future",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.future",
+        "documentation": {}
+    },
+    {
         "label": "bcrypt",
         "kind": 6,
         "isExtraImport": true,
@@ -1756,6 +1892,14 @@
         "description": "src.utils.bcrypt",
         "isExtraImport": true,
         "detail": "src.utils.bcrypt",
+        "documentation": {}
+    },
+    {
+        "label": "rolePermissionCreateModel",
+        "importPath": "src.role.schema",
+        "description": "src.role.schema",
+        "isExtraImport": true,
+        "detail": "src.role.schema",
         "documentation": {}
     },
     {
@@ -2318,6 +2462,51 @@
         "description": "src.permission.service",
         "peekOfCode": "class permissionService:\n    def __init__(self, session: AsyncSession):\n        self.session = session\n    async def get_all_user(self):\n        statement = select(Permission).order_by(Permission.created_at)\n        result = await self.session.exec(statement)\n        return result.all()\n    async def create_gcb(self, permission_data: permissionCreateModel):\n        permission = Permission(**permission_data.model_dump())\n        self.session.add(permission)  ",
         "detail": "src.permission.service",
+        "documentation": {}
+    },
+    {
+        "label": "roleResponseModel",
+        "kind": 6,
+        "importPath": "src.role.schema",
+        "description": "src.role.schema",
+        "peekOfCode": "class roleResponseModel(Role):\n    pass\nclass roleCreateModel(BaseModel):\n    name:str\nclass rolePermissionResponseModel(RolePermission):\n    pass\nclass rolePermissionCreateModel(BaseModel):\n    role_id:str\n    permission_id:str",
+        "detail": "src.role.schema",
+        "documentation": {}
+    },
+    {
+        "label": "roleCreateModel",
+        "kind": 6,
+        "importPath": "src.role.schema",
+        "description": "src.role.schema",
+        "peekOfCode": "class roleCreateModel(BaseModel):\n    name:str\nclass rolePermissionResponseModel(RolePermission):\n    pass\nclass rolePermissionCreateModel(BaseModel):\n    role_id:str\n    permission_id:str",
+        "detail": "src.role.schema",
+        "documentation": {}
+    },
+    {
+        "label": "rolePermissionResponseModel",
+        "kind": 6,
+        "importPath": "src.role.schema",
+        "description": "src.role.schema",
+        "peekOfCode": "class rolePermissionResponseModel(RolePermission):\n    pass\nclass rolePermissionCreateModel(BaseModel):\n    role_id:str\n    permission_id:str",
+        "detail": "src.role.schema",
+        "documentation": {}
+    },
+    {
+        "label": "rolePermissionCreateModel",
+        "kind": 6,
+        "importPath": "src.role.schema",
+        "description": "src.role.schema",
+        "peekOfCode": "class rolePermissionCreateModel(BaseModel):\n    role_id:str\n    permission_id:str",
+        "detail": "src.role.schema",
+        "documentation": {}
+    },
+    {
+        "label": "roleService",
+        "kind": 6,
+        "importPath": "src.role.service",
+        "description": "src.role.service",
+        "peekOfCode": "class roleService:\n    def __init__(self, session: AsyncSession):\n        self.session = session\n    async def get_all_user(self):\n        statement = select(Role).order_by(Role.created_at)\n        result = await self.session.exec(statement)\n        return result.all()\n    async def createRole(self, roleData: roleCreateModel):\n        role = Role(**roleData.model_dump())\n        self.session.add(role)  ",
+        "detail": "src.role.service",
         "documentation": {}
     },
     {

@@ -1,4 +1,4 @@
-from src.db.models import Permission
+from src.db.models import Permission,RolePermission
 from pydantic import BaseModel
 
 
@@ -8,5 +8,3 @@ class permissionResponseModel(Permission):
 
 class permissionCreateModel(BaseModel):
     name:str
-
-
