@@ -96,7 +96,7 @@
         "documentation": {}
     },
     {
-        "label": "List",
+        "label": "Sequence",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -104,7 +104,7 @@
         "documentation": {}
     },
     {
-        "label": "List",
+        "label": "Union",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -112,7 +112,7 @@
         "documentation": {}
     },
     {
-        "label": "Optional",
+        "label": "Sequence",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -120,63 +120,7 @@
         "documentation": {}
     },
     {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
+        "label": "Union",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -216,7 +160,7 @@
         "documentation": {}
     },
     {
-        "label": "List",
+        "label": "Optional",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -232,7 +176,15 @@
         "documentation": {}
     },
     {
-        "label": "List",
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -241,6 +193,22 @@
     },
     {
         "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -285,6 +253,86 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
         "documentation": {}
     },
     {
@@ -2062,6 +2110,24 @@
     {
         "label": "upgrade",
         "kind": 2,
+        "importPath": "migration.versions.c9ffeb55b623_added_roleid_in_user_table",
+        "description": "migration.versions.c9ffeb55b623_added_roleid_in_user_table",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('users', sa.Column('role_id', sa.Uuid(), nullable=False))\n    op.drop_column('users', 'isSuperAdmin')\n    op.drop_column('users', 'isClientAdmin')\n    op.drop_column('users', 'isClientUser')\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('users', sa.Column('isClientUser', sa.BOOLEAN(), autoincrement=False, nullable=False))",
+        "detail": "migration.versions.c9ffeb55b623_added_roleid_in_user_table",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migration.versions.c9ffeb55b623_added_roleid_in_user_table",
+        "description": "migration.versions.c9ffeb55b623_added_roleid_in_user_table",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('users', sa.Column('isClientUser', sa.BOOLEAN(), autoincrement=False, nullable=False))\n    op.add_column('users', sa.Column('isClientAdmin', sa.BOOLEAN(), autoincrement=False, nullable=False))\n    op.add_column('users', sa.Column('isSuperAdmin', sa.BOOLEAN(), autoincrement=False, nullable=False))\n    op.drop_column('users', 'role_id')\n    # ### end Alembic commands ###",
+        "detail": "migration.versions.c9ffeb55b623_added_roleid_in_user_table",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
         "importPath": "migration.versions.e607ea742197_init",
         "description": "migration.versions.e607ea742197_init",
         "peekOfCode": "def upgrade() -> None:\n    # Alter the 'password' column to INTEGER, with explicit casting\n    op.alter_column('users', 'password', \n                    type_=sa.Integer(), \n                    postgresql_using='password::integer')\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.alter_column('users', 'password', type_=sa.String())  # Or sa.Text()\n    # ### end Alembic commands ###",
@@ -2075,6 +2141,24 @@
         "description": "migration.versions.e607ea742197_init",
         "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.alter_column('users', 'password', type_=sa.String())  # Or sa.Text()\n    # ### end Alembic commands ###",
         "detail": "migration.versions.e607ea742197_init",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migration.versions.f1839db487b7_init",
+        "description": "migration.versions.f1839db487b7_init",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_unique_constraint(None, 'permission', ['id'])\n    op.create_unique_constraint(None, 'permissions', ['id'])\n    op.create_unique_constraint(None, 'role', ['id'])\n    op.create_unique_constraint(None, 'rolePermission', ['id'])\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_constraint(None, 'rolePermission', type_='unique')",
+        "detail": "migration.versions.f1839db487b7_init",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migration.versions.f1839db487b7_init",
+        "description": "migration.versions.f1839db487b7_init",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_constraint(None, 'rolePermission', type_='unique')\n    op.drop_constraint(None, 'role', type_='unique')\n    op.drop_constraint(None, 'permissions', type_='unique')\n    op.drop_constraint(None, 'permission', type_='unique')\n    # ### end Alembic commands ###",
+        "detail": "migration.versions.f1839db487b7_init",
         "documentation": {}
     },
     {
@@ -2181,7 +2265,7 @@
         "kind": 6,
         "importPath": "src.db.models",
         "description": "src.db.models",
-        "peekOfCode": "class User(SQLModel, table=True):\n        __tablename__ = 'users'  \n        id: UUID = Field(\n            sa_column=Column(pg.UUID(as_uuid=True), primary_key=True, unique=True, default=uuid4)\n        )\n        name: str\n        email: str = Field(sa_column=Column(String, unique=True, index=True))  # Fixed email definition\n        password: str\n        isSuperAdmin: bool = Field(default=False)\n        isClientAdmin: bool = Field(default=False)",
+        "peekOfCode": "class User(SQLModel, table=True):\n        __tablename__ = 'users'  \n        id: UUID = Field(\n            sa_column=Column(pg.UUID(as_uuid=True), primary_key=True, unique=True, default=uuid4)\n        )\n        name: str\n        email: str = Field(sa_column=Column(String, unique=True, index=True))  # Fixed email definition\n        password: str\n        role_id: UUID = Field(default=None, foreign_key=\"role.id\", primary_key=True)\n        role_id = relationship(\"Role\")",
         "detail": "src.db.models",
         "documentation": {}
     },

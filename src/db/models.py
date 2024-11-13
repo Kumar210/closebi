@@ -17,11 +17,12 @@ class User(SQLModel, table=True):
         name: str
         email: str = Field(sa_column=Column(String, unique=True, index=True))  # Fixed email definition
         password: str
-        isSuperAdmin: bool = Field(default=False)
-        isClientAdmin: bool = Field(default=False)
-        isClientUser: bool = Field(default=False)
+        role_id: UUID = Field(default=None, foreign_key="role.id", primary_key=True)
+
+        role_id = relationship("Role")
         created_at: datetime = Field(default_factory=lambda: datetime.now())
         updated_at: datetime = Field(default_factory=lambda: datetime.now())
+
 
         def __repr__(self) -> str:
             return f"User => {self.name} at {self.created_at}"
